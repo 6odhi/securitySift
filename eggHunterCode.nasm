@@ -1,3 +1,4 @@
+;Taken from securitysift website
 entry:
 loop_inc_page:
      or    dx, 0x0fff       // loop through memory pages by adding 4095 decimal or PAGE_SIZE-1 to edx
